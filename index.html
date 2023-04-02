@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supermarket</title>
+    <!-- stylesheet css -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Material CDN -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp" />
+</head>
+<body>
+    <div class="container">
+        <aside>
+            <div class="top">
+                <div class="logo">
+                    <img src="" alt="">
+                    <h2>SUPER<span class="danger">MARKET</span></h2>
+                </div>
+                <div class="close" id="close-btn">
+                    <span class="material-symbols-sharp">close</span>
+                </div>
+            </div>
+            <div class="sidebar">
+                <a href="" class="active">
+                    <span class="material-symbols-sharp"> dashboard</span>
+                    <h3>Dashboard</h3>
+                </a>
+                <a href="">
+                    <span class="material-symbols-sharp"> inventory</span>
+                    <h3>Products</h3>
+                </a>
+                <a href="">
+                    <span class="material-symbols-sharp"> Category</span>
+                    <h3>Category</h3>
+                </a>
+                <a href="">
+                    <span class="material-symbols-sharp"> group</span>
+                    <h3>Users</h3>
+                </a>
+                <a href="">
+                    <span class="material-symbols-sharp"> sell</span>
+                    <h3>Brands</h3>
+                </a>
+                <a href="">
+                    <span class="material-symbols-sharp"> inventory_2</span>
+                    <h3>Stock</h3>
+                </a>
+                <a href="">
+                    <span class="material-symbols-sharp"> mail</span>
+                    <h3>Massage</h3>
+                    <span class="massage-count">26</span>
+                </a>
+                <a href="">
+                    <span class="material-symbols-sharp"> Report</span>
+                    <h3>Reports</h3>
+                </a>
+                <a href="">
+                    <span class="material-symbols-sharp"> Settings</span>
+                    <h3>Setting</h3>
+                </a>
+                <a href="">
+                    <span class="material-symbols-sharp"> Logout</span>
+                    <h3>Logout</h3>
+                </a>
+            </div>
+        </aside>
+        <!-- ------------END ASIDE-------------- -->
+        <main>
+            <h1>Dashboard</h1>
+            <div class="data">
+                <input type="date" name="data">
+            </div>
+            <div class="insights">
+                <div class="sales">
+                    <span class="material-symbols-sharp">analytics</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total Sales</h3>
+                            <h1>$25,024</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="number">
+                                <p>81%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Last 24 Hours</small>
+                </div>
+                <!-- ------------------------End Sales----------------------------- -->
+                <div class="expenses">
+                    <span class="material-symbols-sharp">bar_chart</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total Expenses</h3>
+                            <h1>$14,160</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="number">
+                                <p>62%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Last 24 Hours</small>
+                </div>
+                <!-- ------------------------End Expenses----------------------------- -->
+                <div class="income">
+                    <span class="material-symbols-sharp">stacked_line_chart</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total Income</h3>
+                            <h1>$10,864</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="number">
+                                <p>44%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Last 24 Hours</small>
+                </div>
+                <!-- ------------------------End Income----------------------------- -->
+            </div>
+        </main>
+    </div>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
